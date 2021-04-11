@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Kaiso Women's Group`,
+    description: `A locally women led group in kasio landing site on the eastern shore line of lake Albert`,
+    author: `@johnapuuli`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -26,6 +26,14 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        google: {
+          families: ["Poppins", "Droid Serif"],
+        },
       },
     },
     `gatsby-plugin-gatsby-cloud`,

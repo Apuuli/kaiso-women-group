@@ -1,8 +1,20 @@
-/**
- * Implement Gatsby's Browser APIs in this file.
- *
- * See: https://www.gatsbyjs.com/docs/browser-apis/
- */
+import React from "react"
 
-// You can delete this file if you're not using it
-import "./src/components/utils/global.css"
+import { ThemeProvider } from "styled-components"
+import { GlobalStyles } from "./src/themes/GlobalStyles"
+import { Theme } from "./src/themes/theme"
+
+export const wrapRootElement = ({ element }) => (
+  <ThemeProvider theme={Theme}>
+    <GlobalStyles />
+    {element}
+  </ThemeProvider>
+)
+
+// export const onClientEntry = () => {
+//   // IntersectionObserver polyfill for gatsby-background-image (Safari, IE)
+//   if (!(`IntersectionObserver` in window)) {
+//     import(`intersection-observer`)
+//     // console.log(`# IntersectionObserver is polyfilled!`)
+//   }
+// }
