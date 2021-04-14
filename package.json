@@ -17,6 +17,7 @@
     "gatsby-plugin-styled-components": "^4.2.0",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-filesystem": "^3.2.0",
+    "gatsby-source-strapi": "0.0.12",
     "gatsby-transformer-sharp": "^3.2.0",
     "gbimage-bridge": "^0.1.2",
     "intersection-observer": "^0.12.0",
