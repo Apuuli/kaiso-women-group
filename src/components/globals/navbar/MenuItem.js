@@ -8,17 +8,20 @@ const MenuItem = ({ path, name }) => <Item to={path}>{name}</Item>
 export default MenuItem
 
 const Item = styled(Link)`
-  text-transform: capitalize;
   display: block;
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  text-transform: capitalize;
+  text-align: center;
   text-decoration: none;
   color: ${({ theme }) => theme.colors.mediumPurple};
   font-weight: 700;
-  margin: 1rem, 2rem;
   cursor: pointer;
   ${({ theme }) => theme.transitionDefault};
   &:hover {
-    ${({ theme }) => theme.colors.border}
-    color: purple;
+    background: ${({ theme }) => theme.colors.darkGreen};
+    color: #fff;
+    border-radius: 0.12rem;
   }
 `
 MenuItem.propTypes = {

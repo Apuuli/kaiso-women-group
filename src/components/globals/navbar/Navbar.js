@@ -2,20 +2,16 @@ import React, { useState } from "react"
 import styled from "styled-components"
 import MenuLinks from "./MenuLinks"
 import Brand from "./Brand"
-import { FaAlignRight, FaWindowClose } from "react-icons/fa"
 import { Link } from "gatsby"
 
 const Navbar = () => {
-  const [menu, setMenu] = useState(false)
+  const [isOpen, setIsOpen] = useState(false)
+  const toggleMenu = () => setIsOpen(!isOpen)
 
   return (
     <NavWrapper>
-      <NavBrand>
-        <BrandLogo to="/">Kwg</BrandLogo>
-
-        <FaAlignRight className="toggle-icon" onClick={() => setMenu(!menu)} />
-      </NavBrand>
-      {/* <MenuLinks open={menu} /> */}
+      <Brand toggleMenu={toggleMenu}></Brand>
+      <MenuLinks open={isOpen} />
     </NavWrapper>
   )
 }

@@ -1,5 +1,5 @@
 export const fonts = {
-  main: "Fira sans, sans-serif",
+  main: "Montserrat, sans-serif",
   slatedtext: "Caveat, cursive",
 }
 export const colors = {

@@ -1,6 +1,12 @@
 import React from "react"
 
-import { FaFacebook, FaInstagram, FaTwitter, FaWhatsapp } from "react-icons/fa"
+import {
+  FaFacebook,
+  FaInstagram,
+  FaTwitter,
+  FaWhatsapp,
+  FaYoutube,
+} from "react-icons/fa"
 import styled from "styled-components"
 
 export default [
@@ -18,7 +24,11 @@ export default [
   },
   {
     icon: <FaWhatsapp className="icon faw" />,
-    path: `https://facebook.com`,
+    path: `https://wa.me/+256777274131>`,
+  },
+  {
+    icon: <FaYoutube className="icon faw" />,
+    path: `https://wa.me/+256777274131>`,
   },
 ]
 // export const twitter = styled(FaTwitter)`

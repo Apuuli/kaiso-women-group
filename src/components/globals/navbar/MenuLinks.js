@@ -14,5 +14,14 @@ export default MenuLinks
 
 const MenuListing = styled.div`
   display: flex;
+  padding: 0.6rem 1.2rem;
+  flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+  @media (min-width: 768px) {
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    padding: 1em 2rem;
+  }
 `
