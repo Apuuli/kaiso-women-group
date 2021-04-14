@@ -1,14 +1,12 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
-
+import KwgSection from "../components/kwgSection"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-
-const IndexPage = () => (
+import { Banner } from "../components/globals/Banner"
+const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
-    john
+    <Banner>Home</Banner>
   </Layout>
 )
 

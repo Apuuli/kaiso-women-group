@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Kaiso Women's Group`,
     description: `A locally women led group in kasio landing site on the eastern shore line of lake Albert`,
-    author: `@johnapuuli`,
+    author: `johnapuuli`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -32,7 +32,7 @@ module.exports = {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         google: {
-          families: ["Poppins", "Droid Serif"],
+          families: ["Montserrat", "Fira Sans", "Caveat"],
         },
       },
     },

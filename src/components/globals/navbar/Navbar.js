@@ -1,26 +1,44 @@
 import React, { useState } from "react"
 import styled from "styled-components"
-import NavbarHeader from "./NavbarHeader"
-import NavbarIcons from "./NavbarIcons"
-import NavLinks from "./NavbarLinks"
+import MenuLinks from "./MenuLinks"
+import Brand from "./Brand"
+import { FaAlignRight, FaWindowClose } from "react-icons/fa"
+import { Link } from "gatsby"
 
-function Navbar() {
+const Navbar = () => {
   const [menu, setMenu] = useState(false)
-  const toggleMenu = () => {
-    setMenu(!menu)
-  }
 
   return (
     <NavWrapper>
-      <NavbarHeader menu={menu} toggleMenu={toggleMenu} />
-      <NavLinks />
-      <NavbarIcons />
+      <NavBrand>
+        <BrandLogo to="/">Kwg</BrandLogo>
+
+        <FaAlignRight className="toggle-icon" onClick={() => setMenu(!menu)} />
+      </NavBrand>
+      {/* <MenuLinks open={menu} /> */}
     </NavWrapper>
   )
 }
-const NavWrapper = styled.nav`
-  @media (min-width: 768px) {
-    display: flex;
-  }
-`
+
 export default Navbar
+
+const NavWrapper = styled.div`
+  max-width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+`
+export const NavBrand = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`
+export const BrandLogo = styled(Link)`
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 3rem;
+  ${({ theme }) => theme.letterSpacing}
+`
