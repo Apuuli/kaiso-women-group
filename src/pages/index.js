@@ -3,10 +3,11 @@ import React from "react"
 import Layout from "./../components/layout"
 import Seo from "./../components/Seo"
 
-export const indexPage = () => {
+const Index = () => {
   return (
     <Layout>
       <Seo title="404: Not found" />
     </Layout>
   )
 }
+export default Index

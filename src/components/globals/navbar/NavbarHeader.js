@@ -2,12 +2,16 @@ import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
 import { FaAlignRight } from "react-icons/fa"
+import { StaticImage } from "gatsby-plugin-image"
 
 function NavbarHeader({ toggleMenu }) {
   return (
     <HeaderWrapper>
       <Link to="/">
-        <a>KWG</a>
+        <StaticImage
+          src="../../../images/kwg-icon.png"
+          width={50}
+        ></StaticImage>
       </Link>
       <FaAlignRight
         className="toggle-icon"
