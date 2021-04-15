@@ -1,9 +1,15 @@
 import React from "react"
 import styled from "styled-components"
+import { StaticImage } from "gatsby-plugin-image"
 
-const Thematic = ({ title, children }) => {
+const Thematic = ({ title, image, children }) => {
   return (
     <Them>
+      <StaticImage
+        src="../images/craftsMaking.png"
+        placeholder="blurred"
+        alt={title}
+      ></StaticImage>
       <ThemTitle>{title}</ThemTitle>
 
       <ThemBody>{children}</ThemBody>
@@ -14,23 +20,18 @@ const Thematic = ({ title, children }) => {
 export default Thematic
 
 export const Them = styled.div`
-  height: 10rem;
   border-radius: 0.2rem;
   margin: 0rem 0.4rem;
-  background: #fff;
-  display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
 `
 export const ThemTitle = styled.h2`
   text-transform: capitalize;
-  text-decoration: underline;
   padding: 0.5rem 1rem;
   text-align: center;
   font-size: 1.4rem;
   font-weight: 900;
-  font-family: ${({ theme }) => theme.fonts.slatedtext};
 `
 export const ThemBody = styled.div`
   width: 100%;

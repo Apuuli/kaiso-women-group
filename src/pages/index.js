@@ -1,12 +1,12 @@
 import * as React from "react"
-import KwgSection from "../components/kwgSection"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 import { Banner } from "../components/globals/Banner"
 import { Programs } from "./../components/Programs"
+import HeaderOne from "../components/header/header"
 const IndexPage = ({ data }) => (
   <Layout>
-    <SEO title="Home" />
+    <Seo title="Home" />
     <Banner>
       <div>
         <h2>
@@ -15,6 +15,7 @@ const IndexPage = ({ data }) => (
         <p>W </p>
       </div>
     </Banner>
+    <HeaderOne title="Programs" />
     <Programs />
   </Layout>
 )

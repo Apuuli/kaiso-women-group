@@ -1,6 +1,5 @@
 import React from "react"
-import { FaAngleDoubleRight } from "react-icons/fa"
-import programs from "../constants/programs"
+import { programs } from "../constants/programs"
 import { StyledSection } from "./kwgSection/section.styled"
 import Activity from "./Activity"
 import Thematic from "./Thematic"
@@ -9,7 +8,7 @@ export const Programs = () => {
     <StyledSection>
       {programs &&
         programs.map(({ title, activities, image }, index) => (
-          <Thematic key={index} title={title}>
+          <Thematic key={index} title image>
             {activities &&
               activities.map((item, index) => (
                 <Activity key={index} item={item} />

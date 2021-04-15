@@ -1,12 +1,12 @@
 import React from "react"
 import styled from "styled-components"
 
-const Footer = () => {
+const Footer = ({ data }) => {
   return (
     <div>
       <KwgFooter>
         <p>
-          © {new Date().getFullYear()}, Kaiso Women's Group
+          © {new Date().getFullYear()}, {data.siteMetadata.title}
           {` `}
           <a
             href="https://www.facebook.com/benjamin"

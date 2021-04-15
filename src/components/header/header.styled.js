@@ -1,12 +1,15 @@
 import styled from "styled-components"
 
 export const StyledHeader = styled.h2`
-  font-size: 1.5rem;
+  text-align: center;
+  font-size: 5rem;
+  align-items: center;
   font-weight: 900;
   text-transform: capitalize;
-  margin: 0 1.5rem;
-  padding: 0.5rem 1rem;
-  color: ${({ theme }) => theme.colors.darkPurple};
+  margin: 0 auto;
+  font-family: ${({ theme }) => theme.fonts.slatedtext};
+  color: ${({ theme }) => theme.colors.mediumPurple};
+  ${({ theme }) => theme.transitionDefault}
   @media (min-widith: 768px) {
     font-size: 1rem;
     font-weight: 700;

@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Navbar from "./globals/navbar/Navbar"
 import styled from "styled-components"
-import KwgSection from "./kwgSection/section"
 import Footer from "./globals/footer/footer"
 
 const Layout = ({ children }) => {
@@ -21,7 +20,7 @@ const Layout = ({ children }) => {
     <Kwg>
       <Navbar />
       <main>{children}</main>
-      <Footer />
+      <Footer data={data} />
     </Kwg>
   )
 }
