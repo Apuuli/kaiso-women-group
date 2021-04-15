@@ -1,15 +1,12 @@
-import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+// If you don't want to use TypeScript you can delete this file!
+import React from "react"
+import Layout from "./../components/layout"
+import Seo from "./../components/Seo"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    john
-  </Layout>
-)
-
-export default IndexPage
+export const indexPage = () => {
+  return (
+    <Layout>
+      <Seo title="404: Not found" />
+    </Layout>
+  )
+}
