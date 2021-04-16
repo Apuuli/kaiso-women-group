@@ -1,12 +1,19 @@
-// If you don't want to use TypeScript you can delete this file!
 import React from "react"
 import Layout from "./../components/layout"
 import Seo from "./../components/Seo"
+import { StaticImage } from "gatsby-plugin-image"
 
 const Index = () => {
   return (
     <Layout>
-      <Seo title="404: Not found" />
+      <Seo title="Home" />
+      <section>
+        <StaticImage
+          src="../images/banner.png"
+          alt="Kaiso women dance group Singing"
+          as="section"
+        />
+      </section>
     </Layout>
   )
 }

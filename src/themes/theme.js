@@ -1,9 +1,11 @@
-export const Theme = {
-  fonts: {
-    main: "Poppins, sans-serif",
-    code: "Roboto Mono, monopace",
-  },
-  colors: {
-    main: "hsl(207, 70%,59%)",
-  },
+export const fonts = {
+  main: "Montserrat, sans-serif",
+  code: "Inconsolata, monospace",
+}
+export const colors = {
+  darkPurple: `#360456`,
+  mediumPurple: `#B99CE3`,
+  lightPurple: `#D1C4FF`,
+  lightGreen: `#CDFF8C`,
+  darkGreen: `#81DD76`,
 }
