@@ -1,22 +1,5 @@
 import { Link } from "gatsby"
-import React from "react"
 import styled from "styled-components"
-import { menuLinks } from "./../../../constants/menuLinks"
-
-function NavLinks({}) {
-  return (
-    <LinkContainer>
-      {menuLinks &&
-        menuLinks.map(({ name, path }, index) => (
-          <LinkItem key={index} to={path} activeClassName="is-active">
-            {name}
-          </LinkItem>
-        ))}
-    </LinkContainer>
-  )
-}
-
-export default NavLinks
 
 export const LinkContainer = styled.div`
   display: none;

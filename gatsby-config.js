@@ -32,7 +32,7 @@ module.exports = {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         google: {
-          families: ["Montserrat", "Inconsolata, monospace"],
+          families: ["Montserrat", "Inconsolata"],
         },
       },
     },

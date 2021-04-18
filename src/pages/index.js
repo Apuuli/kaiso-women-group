@@ -1,19 +1,13 @@
 import React from "react"
 import Layout from "./../components/layout"
 import Seo from "./../components/Seo"
-import { StaticImage } from "gatsby-plugin-image"
+import Banner from "../components/banner"
 
 const Index = () => {
   return (
     <Layout>
       <Seo title="Home" />
-      <section>
-        <StaticImage
-          src="../images/banner.png"
-          alt="Kaiso women dance group Singing"
-          as="section"
-        />
-      </section>
+      <Banner />
     </Layout>
   )
 }

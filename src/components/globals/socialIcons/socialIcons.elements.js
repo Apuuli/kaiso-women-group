@@ -1,26 +1,5 @@
-import React from "react"
 import styled from "styled-components"
-import { socialIcons } from "./../../../constants/socialIcons"
 
-function NavbarIcons() {
-  return (
-    <IconContainer>
-      {socialIcons &&
-        socialIcons.map(({ icon, url }, index) => (
-          <Icon
-            href={url}
-            target="_blank"
-            rel="noopener noreferrer"
-            key={index}
-          >
-            {icon}
-          </Icon>
-        ))}
-    </IconContainer>
-  )
-}
-
-export default NavbarIcons
 export const IconContainer = styled.div`
   display: none;
 
