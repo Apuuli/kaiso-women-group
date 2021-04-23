@@ -1,0 +1,36 @@
+[
+  {
+    "image": "../images/GBVtraining.png",
+    "activities": ["sGBV trainings", "Young Feminist movement"],
+    "title": "Advocacy for Gender Equality and Women Rights"
+  },
+  {
+    "image": "../images/treePlanting.png",
+    "activities": [
+      "Tree planting",
+      "Making of energy saving stove",
+      "briquettes Making"
+    ],
+    "title": "Environment and Climate Justice"
+  },
+  {
+    "image": "../images/craftsMaking.png",
+    "activities": ["Cultural dances", "Events management"],
+    "title": "Drama advocacy for HIV/AIDS and Oil Impacts on Women"
+  },
+  {
+    "image": "../images/mushroomGrowing.png",
+    "activities": ["Mushroom growing", "Urban Farming"],
+    "title": "Food and Nutrition"
+  },
+  {
+    "image": "../images/mushroomGrowing.png",
+    "activities": ["Crafts Making", "Liquid Soap making"],
+    "title": "Community livelihood"
+  },
+  {
+    "image": "../images/mushroomGrowing.png",
+    "activities": ["Credit and Savings", "Business Coaching & Mentorship"],
+    "title": "Self Help Support"
+  }
+]

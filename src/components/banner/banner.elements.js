@@ -11,11 +11,10 @@ export const BannerImage = styled.div`
 `
 export const BannerTextWrapper = styled.div`
   position: absolute;
-  top: 0;
+  top: 6rem;
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.6);
   display: grid;
   place-items: end;
 `
@@ -24,16 +23,15 @@ export const BannerText = styled.div`
   background: rgba(255, 255, 255, 0.4);
   padding: 0.5rem 1rem;
   border-radius: 0.6rem;
-  margin-bottom: 3rem;
-  margin-right: 3rem;
+  margin-bottom: 3vh;
+  margin-right: 3vw;
 `
 export const BannerHeader = styled.h2`
-  font-family: ${({ theme }) => theme.fonts.code};
-  letter-spacing: 0.012rem;
-  font-size: 2.5rem;
-  font-weight: 600;
-  padding: 0.25rem 0.5rem;
-  margin-bottom: 1rem;
+  letter-spacing: 0.12rem;
+  font-size: clamp(1.8rem, 5vw, 2.24rem);
+  font-weight: 900;
+  padding: 0.25vh 0.5vw;
+  margin-bottom: 1vh;
   text-align: center;
   span {
     font-family: ${({ theme }) => theme.fonts.main};
@@ -49,14 +47,13 @@ export const BannerHeader = styled.h2`
   @media (max-width: 768px) {
     /* letter-spacing: normal; */
     font-size: 2rem;
-    padding: 0.025rem 0.25rem;
+    padding: 0.125vh 0.25vw;
   }
 `
 export const BannerBody = styled.div`
-  font-size: 1.25rem;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
   line-height: 1.8;
-  font-weight: 600;
-  letter-spacing: 0.123rem;
+  letter-spacing: 0.015rem;
   figure {
     display: flex;
     flex-direction: column;

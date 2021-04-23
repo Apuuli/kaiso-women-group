@@ -1,4 +1,3 @@
-import { Link } from "gatsby"
 import React from "react"
 import { menuLinks } from "../../../constants/menuLinks"
 import { FooterLinkContainer, FooterLinkItem } from "./footerNav.elements"

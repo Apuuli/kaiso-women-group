@@ -2,7 +2,7 @@ import React from "react"
 import { menuLinks } from "./../../../constants/menuLinks"
 import { LinkContainer, LinkItem } from "./links.elements"
 
-function NavLinks({}) {
+function NavLinks() {
   return (
     <LinkContainer>
       {menuLinks &&

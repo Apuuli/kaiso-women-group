@@ -4,17 +4,20 @@ export const IconContainer = styled.div`
   display: none;
 
   @media (min-width: 992px) {
+    background: rgba(255, 255, 255, 0.3);
+    height: 100%;
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
   }
 `
 export const Icon = styled.a`
-  color: inherit;
+  color: ${({ theme }) => theme.colors.darkPurple};
+  height: 100%;
   text-decoration: none;
   text-align: center;
-  font-size: 1.25rem;
-  margin: 0.25rem 0.5rem;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  margin: 0.5vh 1vw;
   transition: all 0.4s ease-in-out;
   &:hover {
     .facebook {

@@ -1,8 +1,19 @@
 module.exports = {
   siteMetadata: {
     title: `Kaiso Women's Group`,
-    description: `A locally women led group in kasio landing site on the eastern shore line of lake Albert`,
-    author: `@johnapuuli`,
+    description: `A locally women led group for grassroot advocacy, awareness and activisim of gender Equality, Women Rights, Women Empowerment, Environmentalism in Kaiso landing site in Hoima distict in Uganda on the eastern shore line of lake Albert.`,
+    email: `kaisowomensgroup@gmail.com`,
+    telephone: `@johnapuuli`,
+    twitterHandle: `@kaisoWomensGroup`,
+    author: `@apuuliJohn`,
+    address: {
+      country: `Uganda`,
+      district: `Hoima`,
+      subcounty: `Kabaale`,
+      parish: `Mbeegu`,
+      village: `kaiso Trading Center`,
+      road: `Kaiso-Tonya Road`,
+    },
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -16,11 +27,18 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./src/data/`,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Kaiso Women's Group`,
+        short_name: `KWG`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
@@ -32,7 +50,7 @@ module.exports = {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         google: {
-          families: ["Montserrat", "Inconsolata"],
+          families: ["Fira sans", "Inconsolata"],
         },
       },
     },

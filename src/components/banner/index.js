@@ -17,6 +17,7 @@ const Banner = () => {
           src="../../images/banner.png"
           alt="Kaiso women dance group Singing"
           as="section"
+          placeholder="tracedSVG"
           className="banner-image"
         />
       </BannerImage>
@@ -30,11 +31,11 @@ const Banner = () => {
             <figure>
               <blockquote cite="" />
               <q>
-                For the sake of our families'health and our kids'future, we have
-                a moral obligation to act on climte...
+                Sustianably realizing women empowerment for an inclusive
+                development.
               </q>
               <figcaption>
-                <span>Regina McCarthy</span>,<cite>EPA administrator</cite>
+                <span>Regina McCarthy</span>, <cite>EPA administrator</cite>
               </figcaption>
             </figure>
           </BannerBody>

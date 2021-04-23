@@ -3,6 +3,7 @@ import { FooterBody, FooterContainer, FooterLogo } from "./footer.elements"
 import Address from "./../address/index"
 import FooterSocial from "./../footerSocial/index"
 import FooterNav from "./../footerNav/index"
+import { Link } from "gatsby"
 
 const Footer = () => {
   return (
@@ -13,9 +14,10 @@ const Footer = () => {
         <FooterNav />
       </FooterBody>
       <FooterLogo>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
+        <span>
+          © {new Date().getFullYear()},{" "}
+          <Link to="/">KWG:Kaiso Women's Group</Link>
+        </span>
       </FooterLogo>
     </FooterContainer>
   )

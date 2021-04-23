@@ -1,26 +1,25 @@
-import React, { useState } from "react"
+import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import NavbarIcons from "../socialIcons"
 import NavLinks from "../links"
 import { NavWrapper, HeaderWrapper, Brand, Burger } from "./navbar.element"
 
-function Navbar() {
-  const [open, setOpen] = useState(false)
-  const toggleMenu = (state = true) => setOpen(state)
-
+function Navbar({ toggleMenu }) {
   return (
     <NavWrapper>
       <HeaderWrapper>
-        <Brand to="/" onClick={toggleMenu}>
+        <Brand to="/">
           <StaticImage
             src="../../../images/kwg-icon.png"
-            width={70}
+            placeholder="tracedSVG"
+            width={60}
+            imgClassName="logo-image"
             alt="KWG logo"
           />
         </Brand>
-        <Burger />
+        <Burger onClick={toggleMenu} />
       </HeaderWrapper>
-      <NavLinks toggleMenu={toggleMenu} />
+      <NavLinks />
       <NavbarIcons />
     </NavWrapper>
   )

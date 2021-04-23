@@ -3,21 +3,17 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Navbar from "./globals/navbar/index"
 import Footer from "./globals/footer"
+import Sidebar from "./sidebar"
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
+  const [open, setOpen] = React.useState(false)
+  const toggleMenu = () => {
+    setOpen(!open)
+  }
   return (
     <>
-      <Navbar />
+      <Navbar toggleMenu={toggleMenu} />
+      <Sidebar open={open} toggleMenu={toggleMenu} />
       <div>
         <main>{children}</main>
         <Footer />
