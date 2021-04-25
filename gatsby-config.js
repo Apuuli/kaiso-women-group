@@ -50,7 +50,7 @@ module.exports = {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         google: {
-          families: ["Fira sans", "Inconsolata"],
+          families: ["Mulish", "Dancing Script"],
         },
       },
     },

@@ -2,7 +2,8 @@ import styled from "styled-components"
 
 export const FooterContainer = styled.footer`
   background: ${({ theme }) => theme.colors.lightPurple};
-  padding: 2vh 0;
+  margin-top: 10vh;
+  padding: 4vh 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,7 +26,8 @@ export const FooterLogo = styled.div`
   color: #fff;
   text-align: center;
   width: 90vw;
-  margin: 0 auto;
+
+  margin: 4vh auto;
   border-radius: 0.25rem;
   padding: 2vh 0rem;
   background: ${({ theme }) => theme.colors.darkPurple};

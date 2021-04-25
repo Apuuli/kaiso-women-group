@@ -1,5 +1,6 @@
 export const fonts = {
-  main: "Fira sans, sans-serif",
+  main: "Mulish, sans-serif",
+  handy: "'Dancing Script', cursivef",
 }
 export const colors = {
   darkPurple: `hsla(320, 90%, 10%, 1)`, //`#360456`, //hsla(320, 90%, 10%, 1)

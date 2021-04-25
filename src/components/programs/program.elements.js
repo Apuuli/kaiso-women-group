@@ -17,11 +17,15 @@ export const Program = styled.div`
   width: 100%;
   position: relative;
   border-radius: 0.5rem;
+
   box-shadow: 0.5rem 1rem 1.5rem hsla(120, 100%, 25%, 0.8);
   overflow: hidden;
   .program-image-wrapper {
     height: 100%;
     width: 100%;
+    border-radius: 0.5rem;
+    border: 0.25rem solid #fff;
+    overflow: hidden;
   }
 `
 export const ProgramText = styled.div`
