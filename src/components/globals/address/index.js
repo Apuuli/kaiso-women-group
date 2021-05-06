@@ -1,4 +1,5 @@
 import React from "react"
+import { FaEnvelopeOpen, FaTwitter, FaMobile } from "react-icons/fa"
 import { useStaticQuery, graphql } from "gatsby"
 import {
   AddressContainer,
@@ -36,8 +37,9 @@ const Address = () => {
   const siteInfo = nodes[0].siteMetadata
   return (
     <AddressContainer>
-      <AddressHeader> {siteInfo.title}</AddressHeader>
+      <AddressHeader>Office Address</AddressHeader>
       <AddressBody>
+        <h4>{siteInfo.title}</h4>
         <p>
           {siteInfo.address.country}, {siteInfo.address.district} District
         </p>
@@ -45,11 +47,22 @@ const Address = () => {
           {siteInfo.address.subcounty} Sub County, {siteInfo.address.parish}{" "}
           Parish
         </p>
+        <p>{siteInfo.address.village},</p>
+        <p>{siteInfo.address.road}.</p>
+        <hr />
         <p>
-          {siteInfo.address.village}, {siteInfo.address.road}
+          <FaEnvelopeOpen />
+          <a href={`mailto:${siteInfo.email}`}>{siteInfo.email}</a>,
         </p>
         <p>
-          {siteInfo.email}, {siteInfo.telephone}, {siteInfo.twitterHandle}
+          <FaMobile />
+          <a href={`tel:${siteInfo.telephone}`}>{siteInfo.telephone}</a>,
+        </p>
+        <p>
+          <FaTwitter />
+          <a href={`https://twitter.com/${siteInfo.twitterHandle}`}>
+            {siteInfo.twitterHandle}
+          </a>
         </p>
       </AddressBody>
     </AddressContainer>

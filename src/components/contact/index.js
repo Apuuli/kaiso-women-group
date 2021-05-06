@@ -1,12 +1,7 @@
 import { StaticImage } from "gatsby-plugin-image"
 import React from "react"
 import ContactHandles from "../ContactHandles"
-import {
-  ContactSection,
-  ContactText,
-  ContactBody,
-  ContactHeader,
-} from "./contact.elements"
+import { ContactSection, ContactText, ContactBody } from "./contact.elements"
 
 const Contact = () => {
   return (

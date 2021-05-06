@@ -28,8 +28,10 @@ body {
 }
 h1, h2 {
   font-size: clamp(2.5rem, 2.5vw, 4.5rem);
+  font-weight:900;
+  text-shadow:.5rem 1rem 1.5rem ${({ theme }) => theme.colors.darkPurple};
   background: linear-gradient(to right, ${({ theme }) =>
-    theme.colors.darkPurple}, ${({ theme }) => theme.colors.mediumGreen});
+    theme.colors.darkPurple} 50%, ${({ theme }) => theme.colors.mediumGreen});
   -webkit-background-clip: text;
   background-clip:text;
   -webkit-text-fill-color: transparent;

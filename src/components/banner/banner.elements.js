@@ -5,6 +5,10 @@ export const BannerImage = styled.div`
   position: relative;
   height: 100vh;
   .banner-image {
+    background: linear-gradient(
+      to right rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    );
     width: 100%;
     height: 100%;
   }
@@ -20,15 +24,15 @@ export const BannerTextWrapper = styled.div`
 `
 export const BannerText = styled.div`
   max-width: 70vw;
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.6);
   padding: 0.5rem 1rem;
   border-radius: 0.6rem;
-  margin-bottom: 3vh;
+  margin-bottom: 1.5vh;
   margin-right: 3vw;
 `
 export const BannerHeader = styled.h2`
   letter-spacing: 0.12rem;
-  font-size: clamp(1.8rem, 5vw, 2.24rem);
+  font-size: clamp(1.8rem, 2.5vw, 2.24rem);
   font-weight: 900;
   padding: 0.25vh 0.5vw;
   margin-bottom: 1vh;
@@ -39,9 +43,11 @@ export const BannerHeader = styled.h2`
     font-weight: black;
   }
   .women {
+    font-size: clamp(2rem, 2.5vw, 2.5rem);
     color: ${({ theme }) => theme.colors.darkPurple};
   }
   .environment {
+    font-size: clamp(2rem, 2.5vw, 2.5rem);
     color: ${({ theme }) => theme.colors.darkGreen};
   }
   @media (max-width: 768px) {
@@ -51,14 +57,12 @@ export const BannerHeader = styled.h2`
   }
 `
 export const BannerBody = styled.div`
-  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  text-align: center;
+  font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+  font-weight: 900;
+  color: ${({ theme }) => theme.colors.darkGreen};
   line-height: 1.8;
   letter-spacing: 0.015rem;
-  figure {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-  }
   @media (max-width: 768px) {
     /* letter-spacing: normal; */
     font-size: 1rem;

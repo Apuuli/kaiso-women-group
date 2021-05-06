@@ -2,13 +2,15 @@ import { Link } from "gatsby"
 import styled from "styled-components"
 
 export const FooterLinkContainer = styled.div`
-  width: 100%;
   display: flex;
+  padding: 3vh 2vw;
+  margin: 1vh 0;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
 `
 export const FooterLinkItem = styled(Link)`
+  width: 100%;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 900;

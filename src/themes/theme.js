@@ -1,6 +1,6 @@
 export const fonts = {
   main: "Mulish, sans-serif",
-  handy: "'Dancing Script', cursivef",
+  handy: "Dancing Script, cursive",
 }
 export const colors = {
   darkPurple: `hsla(320, 90%, 10%, 1)`, //`#360456`, //hsla(320, 90%, 10%, 1)

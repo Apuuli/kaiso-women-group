@@ -4,16 +4,19 @@ import Seo from "./../components/Seo"
 import Banner from "../components/banner"
 import Section from "../components/section"
 import Programs from "../components/programs"
+import WelcomeSection from "./../components/WelcomeSection/index"
 
 const Index = () => {
   return (
     <Layout>
       <Seo title="Home" />
       <Banner />
-      <Section title="About us">
-        <div>We are home</div>
+      <Section title="Welcome">
+        <WelcomeSection />
       </Section>
-      <Programs />
+      <Section title="Thematic programs">
+        <Programs />
+      </Section>
     </Layout>
   )
 }

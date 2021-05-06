@@ -6,7 +6,7 @@ export const SidebarContainer = styled.div`
   z-index: 99;
   width: 100%;
   height: 100%;
-  background-color: #0d0d0d;
+  background: ${({ theme }) => theme.colors.darkPurple};
   display: grid;
   align-items: center;
   top: 0;

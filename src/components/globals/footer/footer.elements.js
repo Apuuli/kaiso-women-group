@@ -1,7 +1,8 @@
 import styled from "styled-components"
 
 export const FooterContainer = styled.footer`
-  background: ${({ theme }) => theme.colors.lightPurple};
+  background: #000;
+  color: #fff;
   margin-top: 10vh;
   padding: 4vh 0;
   display: flex;
@@ -10,23 +11,22 @@ export const FooterContainer = styled.footer`
   justify-content: space-between;
 `
 export const FooterBody = styled.div`
+  color: inherit;
   width: 90vw;
-  margin: 0 auto;
+  margin: 2vh auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
   @media (max-width: 768px) {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  @media (max-width: 425px) {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
   }
 `
 export const FooterLogo = styled.div`
   color: #fff;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   width: 90vw;
-
   margin: 4vh auto;
   border-radius: 0.25rem;
   padding: 2vh 0rem;

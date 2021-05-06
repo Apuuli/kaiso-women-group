@@ -54,6 +54,17 @@ module.exports = {
         },
       },
     },
+    // {
+    //   resolve: `gatsby-source-youtube-v3`,
+    //   options: {
+    //     channelId: [
+    //       "<< Array of Youtube channelIDs>>",
+    //       "UCK8sQmJBp8GCxrOtXWBpyEA",
+    //     ],
+    //     apiKey: "<< Add your Youtube api key here>>", // Optional for public requests
+    //     maxVideos: 50, // Defaults to 50
+    //   },
+    // },
     `gatsby-plugin-gatsby-cloud`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

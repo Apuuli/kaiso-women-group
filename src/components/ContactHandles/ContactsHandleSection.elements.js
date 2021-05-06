@@ -22,12 +22,12 @@ export const HandleEmail = styled.span`
   a {
     text-decoration: none;
     margin-left: 1vw;
-    color: ${({ theme }) => theme.colors.textColor};
+    color: inherit;
     border-bottom: 0.2rem solid transparent;
-    transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in-out;
     &:hover {
-      border-bottom: 0.2rem solid ${({ theme }) => theme.colors.darkPurple};
-      color: ${({ theme }) => theme.colors.darkPurple};
+      color: ${({ theme }) => theme.colors.mediumPurple};
+      border-bottom: 0.2rem solid ${({ theme }) => theme.colors.mediumPurple};
     }
   }
 `
@@ -37,14 +37,14 @@ export const HandlePhone = styled.span`
   padding: 0.25vh 1vw;
   margin: 0.25vh 1vw;
   a {
-    text-decoration: none;
     margin-left: 1vw;
-    color: ${({ theme }) => theme.colors.textColor};
+    text-decoration: none;
+    color: inherit;
     border-bottom: 0.2rem solid transparent;
-    transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in-out;
     &:hover {
-      border-bottom: 0.2rem solid ${({ theme }) => theme.colors.darkPurple};
-      color: ${({ theme }) => theme.colors.darkPurple};
+      color: ${({ theme }) => theme.colors.mediumPurple};
+      border-bottom: 0.2rem solid ${({ theme }) => theme.colors.mediumPurple};
     }
   }
 `
@@ -54,14 +54,14 @@ export const HandleFacebook = styled.span`
   padding: 0.25vh 1vw;
   margin: 0.25vh 1vw;
   a {
-    text-decoration: none;
     margin-left: 1vw;
-    color: ${({ theme }) => theme.colors.textColor};
+    text-decoration: none;
+    color: inherit;
     border-bottom: 0.2rem solid transparent;
-    transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in-out;
     &:hover {
-      border-bottom: 0.2rem solid ${({ theme }) => theme.colors.darkPurple};
-      color: ${({ theme }) => theme.colors.darkPurple};
+      color: ${({ theme }) => theme.colors.mediumPurple};
+      border-bottom: 0.2rem solid ${({ theme }) => theme.colors.mediumPurple};
     }
   }
 `
@@ -71,14 +71,14 @@ export const HandleTwitter = styled.span`
   padding: 0.25vh 1vw;
   margin: 0.25vh 1vw;
   a {
-    text-decoration: none;
     margin-left: 1vw;
-    color: ${({ theme }) => theme.colors.textColor};
+    text-decoration: none;
+    color: inherit;
     border-bottom: 0.2rem solid transparent;
-    transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in-out;
     &:hover {
-      border-bottom: 0.2rem solid ${({ theme }) => theme.colors.darkPurple};
-      color: ${({ theme }) => theme.colors.darkPurple};
+      color: ${({ theme }) => theme.colors.mediumPurple};
+      border-bottom: 0.2rem solid ${({ theme }) => theme.colors.mediumPurple};
     }
   }
 `

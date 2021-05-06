@@ -11,7 +11,7 @@ export const ContactText = styled.div`
     height: 100%;
     width: 100%;
     border-radius: 0.5rem;
-    box-shadow: 0.5rem 1rem 1.5rem ${({ theme }) => theme.colors.lightGreen};
+    box-shadow: 0.5rem 1rem 1.5rem ${({ theme }) => theme.colors.darkGreen};
     overflow: hidden;
   }
   @media (max-width: 768px) {

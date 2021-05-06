@@ -25,7 +25,7 @@ export const LinkItem = styled(Link)`
   text-decoration: none;
   height: 100%;
   font-size: clamp(1rem, 2.5vw, 1.2rem);
-  color: ${({ theme }) => theme.colors.darkPurple};
+  color: ${({ theme }) => theme.colors.mediumPurple};
   font-weight: 600;
   white-space: nowrap;
   text-align: center;
@@ -36,10 +36,10 @@ export const LinkItem = styled(Link)`
   letter-spacing: 0.125rem;
   transition: all 0.4s ease-in-out;
   &:hover {
-    border-bottom: 0.2rem solid ${({ theme }) => theme.colors.darkPurple};
+    border-bottom: 0.2rem solid ${({ theme }) => theme.colors.mediumPurple};
   }
   &.is-active {
-    color: ${({ theme }) => theme.colors.darkPurple};
-    border-bottom: 0.2rem solid ${({ theme }) => theme.colors.darkPurple};
+    color: ${({ theme }) => theme.colors.mediumPurple};
+    border-bottom: 0.2rem solid ${({ theme }) => theme.colors.mediumPurple};
   }
 `

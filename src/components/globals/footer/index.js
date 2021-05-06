@@ -15,8 +15,12 @@ const Footer = () => {
       </FooterBody>
       <FooterLogo>
         <span>
-          © {new Date().getFullYear()},{" "}
-          <Link to="/">KWG:Kaiso Women's Group</Link>
+          © {new Date().getFullYear()},
+          <Link to="/">Kaiso Women's Group (KWG)</Link>
+        </span>
+        <span>
+          Creative works by{" "}
+          <a href="mailto:apuulijohn@gmail.com">Apuuli John</a>
         </span>
       </FooterLogo>
     </FooterContainer>
