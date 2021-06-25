@@ -35,7 +35,6 @@ const ContactHandles = () => {
   `)
 
   const { allContactsJson } = data
-  console.log(allContactsJson)
   return (
     <ContactsHandleSection>
       {" "}

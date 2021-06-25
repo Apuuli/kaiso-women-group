@@ -7,7 +7,8 @@ export const BackgroundText = styled.div`
     color: inherit;
     border-bottom: 0.2rem solid transparent;
     transition: all 0.4s ease-in-out;
-    &:hover {
+    &:hover,
+    &:focus {
       color: ${({ theme }) => theme.colors.mediumPurple};
       border-bottom: 0.2rem solid ${({ theme }) => theme.colors.mediumPurple};
     }

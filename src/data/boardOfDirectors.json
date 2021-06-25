@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Ajuna Sylvia",
+    "position": "Chairperson",
+    "tel": "+256782588220",
+    "email": "immaculatebusinge1988@gmail.com",
+    "image": "../images/board/ajuna_sylvia.png"
+  },
+  {
+    "name": "Owengonzi Immaculate",
+    "position": "Advisor",
+    "tel": "+256782588220",
+    "email": "immaculatebusinge1988@gmail.com",
+    "image": "../images/board/owengonzi_immaculate.png"
+  },
+  {
+    "name": "Businge Immaculate",
+    "position": "Chairperson",
+    "tel": "+256782588220",
+    "email": "immaculatebusinge1988@gmail.com",
+    "image": "../images/board/businge_immaculate.png"
+  },
+  {
+    "name": "Tuhaise Robinah",
+    "position": "Secretary",
+    "tel": "+256777192300",
+    "email": "immaculatebusinge1988@gmail.com",
+    "image": "../images/board/tuhaise_robinah.png"
+  },
+  {
+    "name": "Namara Scovia",
+    "position": "Treasurer",
+    "tel": "+256774089974",
+    "email": "immaculatebusinge1988@gmail.com",
+    "image": "../images/board/namara_scovia.png"
+  },
+  {
+    "name": "Tuhaise Robinah",
+    "position": "Advisor",
+    "tel": "+256782588220",
+    "email": "immaculatebusinge1988@gmail.com",
+    "image": "../images/board/tuhaise_robinah.png"
+  }
+]

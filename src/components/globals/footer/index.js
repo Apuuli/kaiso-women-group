@@ -20,7 +20,7 @@ const Footer = () => {
         </span>
         <span>
           Creative works by{" "}
-          <a href="mailto:apuulijohn@gmail.com">Apuuli John</a>
+          <a href="mailto:snwbenja3@gmail.com"> Ahabyona Benjamin </a>
         </span>
       </FooterLogo>
     </FooterContainer>

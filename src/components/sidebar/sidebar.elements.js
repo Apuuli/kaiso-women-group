@@ -30,5 +30,9 @@ export const CloseIcon = styled(FaTimes)`
 export const SidebarWrapper = styled.div`
   color: #fff;
 `
-export const SidebarNav = styled.div``
+export const SidebarNav = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`
 export const SidebarSocial = styled.div``

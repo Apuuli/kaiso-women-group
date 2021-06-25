@@ -20,7 +20,8 @@ export const Vision = styled.div`
   flex-direction: column;
   justify-content: space-between;
   border-radius: 0.25rem;
-  &:hover {
+  &:hover,
+  &:focus {
     background: ${({ theme }) => theme.colors.lightGreen};
     box-shadow: 0.5rem 1rem 1.5rem ${({ theme }) => theme.colors.darkGreen};
   }

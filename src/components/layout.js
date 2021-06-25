@@ -1,6 +1,5 @@
 import * as React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 import Navbar from "./globals/navbar/index"
 import Footer from "./globals/footer"
 import Sidebar from "./sidebar"

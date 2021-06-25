@@ -27,9 +27,13 @@ export const AddressBody = styled.div`
   p {
     padding: 0.25vh 0;
     margin: 0.25vh 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
   }
   a {
     color: inherit;
+    font-weight: 200;
     text-decoration: none;
     margin-left: 2vh;
     &:hover {

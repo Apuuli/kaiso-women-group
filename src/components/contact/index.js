@@ -13,7 +13,7 @@ const Contact = () => {
         </ContactBody>
         <StaticImage
           alt="Direction to our offices"
-          src="./../../images/treePlanting.png"
+          src="./../../images/contact_1.png"
           placeholder="tracedSVG"
           className="contact-image"
         />

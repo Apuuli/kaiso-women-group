@@ -17,7 +17,9 @@ const Sidebar = ({ open, toggleMenu }) => {
       </Icon>
       <SidebarWrapper>
         <FooterNav />
-        {/* <SidebarSocial></SidebarSocial> */}
+        <SidebarNav>
+          <SidebarSocial />
+        </SidebarNav>
       </SidebarWrapper>
     </SidebarContainer>
   )

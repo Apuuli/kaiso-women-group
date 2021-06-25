@@ -16,14 +16,14 @@ const Introduction = () => {
         Kaiso is a landing site on the eastern shoreline of lake Albert. Like
         other centers or landing sites in the Albertine region, Kaiso isn't
         exempted from effects of mass influxes of people who seek opportunities
-        in the projected Oil and Gas, Cargo Industry resultant from the
-        construction of the Kabale International airport as well as associted
-        industries. Kaiso is situated in the host communities of kwangawali
-        refugee camp, the biggest in Uganda.
+        in the projected Oil and Gas, Cargo Industry, prospective of Kabale
+        International airport as well as associted industries. Kaiso is situated
+        in the host communities of kwangawali refugee camp, the biggest in
+        Uganda.
       </p>
       <p>
         The Environment and female gender would pay heavier prices in
-        realisations of these modern day developments. Studies such{" "}
+        realisations of these modern day developments. Studies such as{" "}
         <a
           href="https://www.researchgate.net/publication/323655773_Experiences_of_Gender_Based_Violence_among_Refugee_Populations_in_Uganda_Evidence_from_Four_Refugee_Camps"
           target="_blank"
@@ -38,12 +38,12 @@ const Introduction = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          United Nations High Commissioner for Refugees (UNHCR)
-        </a>
+          UNHCR
+        </a>{" "}
         Uganda, offer an informed insights on the extent to which the sGBV vice
         has which perpetuated our commity. They all acknowledge women and girls
-        as the most vulnerable and survivors of sGBV, including sexual
-        exploitation and abuse (SEA), rape, forced and child marriage, and
+        as the most vulnerable and survivors of sGBV, including Sexual
+        Exploitation and Abuse (SEA), rape, forced and child marriage, and
         intimate partner violence (IPV) both in refugee settlements and their
         host communities of which Kaiso identifies with.
       </p>
